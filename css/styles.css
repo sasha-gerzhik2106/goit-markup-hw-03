@@ -296,6 +296,9 @@ padding:120px 0;
     color: #2e2f42;
 }
 .hover-apps{
+    margin-bottom: 8px
+}
+.hover-apps{
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
