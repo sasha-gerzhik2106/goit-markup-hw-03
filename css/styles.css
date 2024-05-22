@@ -6,16 +6,13 @@ body{
 a {
     text-decoration: none;
     }
-    
+    img{
+        display: block;
+    }
 ul,ol {
     list-style: none;
     padding: 0;
     margin: 0;
-    }
-    h3{
-        display: flex;
-        align-items: center;
-        margin-bottom: 5px;
     }
  
 .container{
@@ -24,6 +21,7 @@ ul,ol {
     margin: 0 auto;
 
 }
+/*хедер*/
     .section-zero{
         border-bottom: 1px solid #e7e9fc;
     }
@@ -107,6 +105,7 @@ color: #2e2f42;
 .adress-first:focus{
     color: #404bbf;
 }
+/*первая секция*/
 .section-first{
     background-color: #2e2f42;
     padding: 40px 0;    
@@ -114,7 +113,7 @@ color: #2e2f42;
 .section-first{
     width: 1440px;
     height: 600px;
-    padding: 0 15px;
+    padding: 188px 0 188px;
     margin: 0 auto;
     display: flex;
     justify-content: center;
@@ -122,11 +121,12 @@ color: #2e2f42;
     flex-direction: column;
     margin-bottom: 60px;
 }
-.box{
+.h-one{
     width: 496px;
     height: 120px;
     margin: auto;
     margin-bottom: 20px;
+    max-width: 496px;
 }
 .h-one{
 font-size: 56px;
@@ -151,12 +151,15 @@ color: #ffffff;
     display: block;
     margin: 0 auto;
     padding: 10px 20px;
-    background-color: #007bff;
+    background-color: #4d5ae5;
     color: #fff;
     text-decoration: none;
     border: none;
     border-radius: 5px;
     cursor: pointer;
+    min-width: 169px;
+    height: 56px;
+    border-radius: 4px;
 }
 .button:hover{
     background-color:  #404BBF;
@@ -164,7 +167,33 @@ color: #ffffff;
 .button:focus{
     background-color: #404BBF;
 }
-
+/*вторая секция*/
+.section-second{
+    padding: 120px 0;
+}
+.visually-hidden {
+    position: absolute !important;
+    top: -1px !important;
+    width: 1px !important;
+    height: 1px !important;
+    overflow: hidden !important;
+    clip: rect(0, 0, 0, 0) !important;
+    white-space: nowrap !important;
+    border: 0 !important;
+    padding: 0 !important;
+    margin: -1px !important;
+  }
+.list{
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+.class-f{
+    width: calc((100% - 72px) / 4);
+}
+.hover-three{
+    margin-bottom: 8px;
+}
 .hover-three{
     font-weight: 500;
     font-size: 20px;
@@ -172,26 +201,43 @@ color: #ffffff;
     letter-spacing: 0.02em;
     color:  #2e2f42;
 }
+
 .paragraph-one{
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
-}
+} 
+/*третья секция*/
 .section-third{
     background-color: #F4F4FD;
     width: 1440px;
 height: 732px;
-padding: 0 15px;
+padding:120px 0;
     margin: 0 auto;
 }
-.none{
-    display: none;
+.our-team{
+    margin-bottom: 72px;
 }
 .team{
     display: flex;
     align-items: center;
-    gap: 40px;
+    gap: 24px;
+}
+.list-one{
+    width: calc((100% - 72px) / 4);
+    border-radius: 0px 0px 4px 4px; 
+
+}
+.div-list{
+    padding: 32px 0;
+}
+.hover-team{
+    text-align: center; 
+    margin-bottom: 8px;
+}
+.paragraph-team{
+    text-align: center;
 }
 .our-team{
     font-size: 36px;
@@ -204,11 +250,7 @@ padding: 0 15px;
 .list-one{
     background-color: #FFFFFF;
 }
-.list{
-    display: flex;
-    align-items: center;
-    gap: 8px;
-}
+
 .hover-team{
     font-weight: 500;
     font-size: 20px;
@@ -222,11 +264,25 @@ padding: 0 15px;
     line-height: 1.5;
     letter-spacing: 0.02em;
 }
-.Portfolio{
+/*четвертая секция*/
+.section-fourth{
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+.portfolio{
     display: flex;
-    align-items: center;
-    gap: 20px;
     flex-wrap: wrap;
+    column-gap: 24px;
+    row-gap: 48px;
+}
+.qwe{
+    width: calc((100% - 48px) / 3);
+}
+.rty{
+    padding: 32px 16px;
+    border: 1px solid #e7e9fc;
+    border-top: none;
+    margin-bottom: 8px;
 }
 .our-features{
     font-size: 36px;
@@ -249,13 +305,19 @@ padding: 0 15px;
     letter-spacing: 0.02em;
     color: #434455;
 }
+/*футер*/
+.section-six{
+    padding: 100px 0;
+}
 .section-six{
     background-color: #2e2f42;
 }
-.fot{
-    width: 264px;
-    height: 112px;
-
+.web-two{
+    display: inline-block;
+    margin-bottom: 16px;
+}
+.p-six{
+    max-width: 264px
 }
 .web-two{
     font-family: "Raleway", sans-serif;
