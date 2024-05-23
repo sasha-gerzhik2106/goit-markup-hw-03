@@ -172,16 +172,13 @@ color: #ffffff;
     padding: 120px 0;
 }
 .visually-hidden {
-    position: absolute !important;
-    top: -1px !important;
-    width: 1px !important;
-    height: 1px !important;
-    overflow: hidden !important;
-    clip: rect(0, 0, 0, 0) !important;
-    white-space: nowrap !important;
-    border: 0 !important;
-    padding: 0 !important;
-    margin: -1px !important;
+    clip: rect(0 0 0 0);
+	clip-path: inset(50%);
+	height: 1px;
+	overflow: hidden;
+	position: absolute;
+	white-space: nowrap;
+	width: 1px;
   }
 .list{
     display: flex;
