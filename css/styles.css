@@ -3,6 +3,10 @@ body{
     color: #434455;
     background-color:  #FFFFFF; 
 }
+h3,p{
+    margin: 0;
+
+}
 a {
     text-decoration: none;
     }
@@ -107,25 +111,14 @@ color: #2e2f42;
 }
 /*первая секция*/
 .section-first{
-    background-color: #2e2f42;
-    padding: 40px 0;    
+    background-color: #2e2f42;   
 }
 .section-first{
-    width: 1440px;
-    height: 600px;
-    padding: 188px 0 188px;
-    margin: 0 auto;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    margin-bottom: 60px;
+    padding: 188px 0 188px;       
 }
 .h-one{
-    max-width: 496px;
-    height: 120px;
     margin: auto;
-    margin-bottom: 20px;
+    margin-bottom: 48px;
     max-width: 496px;
 }
 .h-one{
@@ -191,9 +184,7 @@ color: #ffffff;
 .class-f{
     width: calc((100% - 72px) / 4);
 }
-.hover-three{
-    margin-bottom: 8px;
-}
+
 .hover-three{
     font-weight: 500;
     font-size: 20px;
@@ -211,9 +202,7 @@ color: #ffffff;
 /*третья секция*/
 .section-third{
     background-color: #F4F4FD;
-    width: 1440px;
-height: 732px;
-padding:120px 0;
+    padding:120px 0;
     margin: 0 auto;
 }
 .our-team{
@@ -285,7 +274,6 @@ padding:120px 0;
     padding: 32px 16px;
     border: 1px solid #e7e9fc;
     border-top: none;
-    margin-bottom: 8px;
 }
 .our-features{
     font-size: 36px;
